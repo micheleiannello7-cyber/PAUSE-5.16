@@ -101,3 +101,4 @@
 #====================================================================================================
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
+# ⚠️ PAUSE: prima di modificare/testare leggere /app/memory/CONSTITUTION.md (Costituzione tecnica vincolante: minimum change, niente rigenerazione asset, niente AI a runtime, identità visiva dark-navy/cyan/glass). Rispondere in italiano.

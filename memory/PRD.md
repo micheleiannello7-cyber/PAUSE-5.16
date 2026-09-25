@@ -1,5 +1,11 @@
 # PAUSE — Product Requirements (Preview)
 
+> ⚠️ **OBBLIGATORIO PRIMA DI QUALSIASI INTERVENTO:** leggere e rispettare
+> [`/app/memory/CONSTITUTION.md`](./CONSTITUTION.md) — la Costituzione tecnica permanente
+> e vincolante di PAUSE (regola "minimum change", niente riscritture, niente rigenerazione
+> di contenuti/asset, niente AI a runtime, identità visiva dark-navy/cyan/glass).
+> Lingua dell'utente: italiano.
+
 ## Summary
 Mobile Expo app (React Native + FastAPI + MongoDB) that turns idle moments into curiosities/mini-lessons with an intentional pause between sessions.
 
