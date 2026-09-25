@@ -21,3 +21,11 @@ Mobile Expo app (React Native + FastAPI + MongoDB) that turns idle moments into 
   cinematic dark-navy gradient with orbs, cyan-glow title, sparkles hint card,
   and the glass CategoryGrid (`glass` prop). Behaviour (interest toggle,
   auto-save, LimitBadge, active-count) unchanged.
+
+## Home deck & badge (sessione corrente)
+- `src/components/home-story-deck.tsx`: cambio card immediato (commit su UI thread via `runOnUI`), molla più rapida
+  (damping 22 / stiffness 190); tocco e nuovo swipe consentiti anche durante l'animazione; zoom "in arrivo"
+  guidato dal verso di scorrimento (`travel`). Comportamento timeline/elastico ai bordi/idle sway invariato.
+- `src/components/story-meta-chips.tsx`: badge tipo · categoria · durata uniti in una sola pillola centrata,
+  orologio 3D (`assets/images/kind-clock.png`, lo stesso di StoryInfoGrid) al posto dell'icona Ionicons.
+- Stile "glass" sulle card storie della Home: proposto e BOCCIATO dall'utente → non applicare.
